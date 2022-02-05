@@ -40,8 +40,26 @@ limitations under the License.
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var ctors = require( '@stdlib/array-ctors' );
+ctors = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.ctors;
+})()
+</script>
 ```
 
 #### ctors( dtype )
@@ -95,9 +113,14 @@ var ctor = ctors( 'float' );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var dtypes = require( '@stdlib/array-dtypes' );
-var ctors = require( '@stdlib/array-ctors' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 var DTYPES = dtypes();
 var ctor;
@@ -107,6 +130,11 @@ for ( i = 0; i < DTYPES.length; i++ ) {
     ctor = ctors( DTYPES[ i ] );
     console.log( ctor );
 }
+
+})()
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -187,6 +215,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 -->
 
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/array-ctors/tree/deno
+[umd-url]: https://github.com/stdlib-js/array-ctors/tree/umd
+[esm-url]: https://github.com/stdlib-js/array-ctors/tree/esm
+
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
 
@@ -198,7 +233,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/typed-ctors]: https://github.com/stdlib-js/array-typed-ctors
+[@stdlib/array/typed-ctors]: https://github.com/stdlib-js/array-typed-ctors/tree/umd
 
 <!-- </related-links> -->
 
