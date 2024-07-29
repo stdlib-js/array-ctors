@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@deno/mod.js';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@v0.3.0-deno/mod.js';
 ```
 
 #### ctors( dtype )
@@ -109,7 +109,7 @@ var ctor = ctors( 'float' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@deno/mod.js';
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@deno/mod.js';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@v0.3.0-deno/mod.js';
 
 var DTYPES = dtypes();
 var ctor;
