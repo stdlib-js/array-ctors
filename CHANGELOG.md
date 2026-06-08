@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-06-08)
+
+<section class="features">
+
+### Features
+
+-   [`544e175`](https://github.com/stdlib-js/stdlib/commit/544e175ed420534e7c343b52b8360b2724c6219b) - add float16 datatype support in `array/ctors` [(#12703)](https://github.com/stdlib-js/stdlib/pull/12703)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`544e175`](https://github.com/stdlib-js/stdlib/commit/544e175ed420534e7c343b52b8360b2724c6219b) - **feat:** add float16 datatype support in `array/ctors` [(#12703)](https://github.com/stdlib-js/stdlib/pull/12703) _(by Gururaj Gurram)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Gururaj Gurram
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
